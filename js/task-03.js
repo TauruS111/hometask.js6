@@ -15,7 +15,7 @@ const images = [
 
 const galleryBox = document.querySelector('.gallery');
 function createPicture(pictureData) {
- return pictureData.map(img => `<li><img src="${img.url}" alt="${img.alt}" width='300'></li>`).join('')
+ return pictureData.map(img => `<li><img src="${img.url}" alt="${img.alt}" width='350'></li>`).join('')
     
  
 }
